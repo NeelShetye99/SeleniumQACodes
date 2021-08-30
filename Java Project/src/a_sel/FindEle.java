@@ -15,7 +15,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 		// TODO Auto-generated method stub
 		
 		System.setProperty("webdriver.chrome.driver","C:\\SeleniumDrivers\\chromedriver_win32\\chromedriver.exe");
-	    WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("http://demo.guru99.com/test/newtours/");
